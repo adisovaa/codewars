@@ -1,0 +1,1 @@
+const longest = () => [...new Set(s1+s2)].sort().join('')
