@@ -1,3 +1,7 @@
 function solution(str, ending){
-    return new RegExp(ending+"$", "i").test(str);
-}
+    return console.log(str.endsWith(ending))
+  }
+
+  solution('abc', 'bc') 
+  solution('abc', 'd')
+  solution('abc', 'c')
