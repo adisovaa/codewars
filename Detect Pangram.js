@@ -4,4 +4,4 @@ function isPangram(string){
       .split("").every(function(x){
         return string.indexOf(x) !== -1;
     });
-  }
+}
