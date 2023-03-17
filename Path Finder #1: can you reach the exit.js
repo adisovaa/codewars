@@ -9,7 +9,6 @@ function pathFinder(maze) {
     if (userPosition === maze.length - 1) {
       return true;
     } else {
-      
       let result;
       visited[userPosition] = true;
       
