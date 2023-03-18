@@ -9,9 +9,16 @@
 <body>
     
     <script>
+        function sumTwoSmallestNumbers(numbers) {  
+           var a = Math.min(...numbers)
+        }
 
+        let a = Math.min(...numbers)
+        numbers.splice(numbers.indexOf(a), 1)
+        let b = Math.min(...numbers)
+        return a + b
 
-        console.log(XO("ooxx"))
+        console.log(sumTwoSmallestNumbers([19, 5, 42, 2, 77]))
     </script>
 </body>
 </html>
